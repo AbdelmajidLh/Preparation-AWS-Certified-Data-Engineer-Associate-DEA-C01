@@ -37,3 +37,12 @@ Une solution d'analyse de données a plusieurs composantes. Chaque composant a s
 ```mermaid
 Data Row --> Ingest & Collect --> Store --> Process & Analyse --> Consume & Visualize --> Answers & Insights
 ```
+
+```mermaid
+graph TD;
+DataRow[Data Row] --> IngestCollect[Ingest & Collect];
+IngestCollect --> Store[Store];
+Store --> ProcessAnalyse[Process & Analyse];
+ProcessAnalyse --> ConsumeVisualize[Consume & Visualize];
+ConsumeVisualize --> AnswersInsights[Answers & Insights];
+```

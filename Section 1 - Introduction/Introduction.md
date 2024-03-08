@@ -35,10 +35,6 @@ Les 5 V du Big Data :
 Une solution d'analyse de données a plusieurs composantes. Chaque composant a ses services et ses approches :
 
 ```mermaid
-Data Row --> Ingest & Collect --> Store --> Process & Analyse --> Consume & Visualize --> Answers & Insights
-```
-
-```mermaid
 graph TD;
 DataRow[Data Row] --> IngestCollect[Ingest & Collect];
 IngestCollect --> Store[Store];

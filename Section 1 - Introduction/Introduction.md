@@ -36,4 +36,4 @@ Une solution d'analyse de données a plusieurs composantes. Chaque composant a s
 
 ```mermaid
 Data Row --> Ingest & Collect --> Store --> Process & Analyse --> Consume & Visualize --> Answers & Insights
-
+```

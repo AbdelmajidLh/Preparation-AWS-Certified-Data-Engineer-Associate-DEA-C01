@@ -27,10 +27,10 @@ Cet examen couvre 4 domaines :
 Les données arrivent de différentes sources (réseaux sociaux, emails, bases de données, images, logs, etc.). Le problème / challenge est d'exploiter ces données massives (stockage et analyse).
 
 Les 5 V du Big Data :
-- Volume : combien de données ?
-- Variété : quel type de données ?
-- Velocity : quelle fréquence / temps réel ?
-- Veracité : quelle précision de la donnée ?
+- `Volume` : combien de données ?
+- `Variété` : quel type de données ?
+- `Velocity` : quelle fréquence / temps réel ?
+- `Veracité` : quelle précision de la donnée ?
 
 Une solution d'analyse de données a plusieurs composantes. Chaque composant a ses services et ses approches :
 
@@ -42,3 +42,25 @@ Store --> ProcessAnalyse[Process & Analyse];
 ProcessAnalyse --> ConsumeVisualize[Consume & Visualize];
 ConsumeVisualize --> AnswersInsights[Answers & Insights];
 ```
+#### 4. Créer un bucket S3 avec CLI en utilisant Amazon Q (Assistant IA propulsé par l'IA)
+Commencez par créer votre  [compte AWS sur](https://portal.aws.amazon.com/billing/signup?refid=em_127222&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation&language=fr_fr#/start/email) ou connectez-vous si vous avez déjà un compte.
+
+La CLI (Command Line Interface) est le shell de commande d'AWS. Amazon Q est un service d'IA basé sur le chat, similaire 
+à ChatGPT. En cliquant sur l'icône `Q` en haut à droite de l'écran, vous pouvez ouvrir le chat. Il répondra à toutes vos 
+questions sur les services AWS. Vous pouvez également utiliser le CloudShell (CLI) en cliquant sur l'icône en bas à gauche 
+de votre console ou en haut à droite.
+
+On va créer un bucket S3 nommé `aelhou` (vous pouvez choisir un autre nom) dans la région us-east-1. On peut gérer les accès au bucket dans les paramètres (dashboard S3).
+
+```bash
+aws s3api create-bucket --bucket aelhou --region us-east-1
+
+# {
+#     "Location": "/aelhou"
+# }
+```
+Pour vérifier si le bucket est créé :
+```
+aller dans Services > Stockage > S3 : vous trouverez le nom du bucket dans le tableau `Buckets d'usage général`
+```
+![S3 Bucket](../src/captures/s3_bucket.png)

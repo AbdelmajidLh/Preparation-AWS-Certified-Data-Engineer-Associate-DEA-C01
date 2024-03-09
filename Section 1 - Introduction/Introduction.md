@@ -24,13 +24,14 @@ Cet examen couvre 4 domaines :
 
 
 #### 3. Le challenge en big data
-Les données arrivent de différentes sources (réseaux sociaux, emails, bases de données, images, logs, etc.). Le problème / challenge est d'exploiter ces données massives (stockage et analyse).
+Les données arrivent de différentes sources (réseaux sociaux, emails, bases de données, images, logs, bases de données publiques, ... etc.). Le problème / challenge est d'exploiter ces données massives (stockage et analyse).
 
 Les 5 V du Big Data :
 - `Volume` : combien de données ?
-- `Variété` : quel type de données ?
-- `Velocity` : quelle fréquence / temps réel ?
-- `Veracité` : quelle précision de la donnée ?
+- `Variété` : quel type de données ? Structurées, semi-structurées ou bien non-structurées !
+- `Velocity` : quelle fréquence / temps réel ? En gros, c'est la vitesse à laquelle les données doivent être traitées.
+- `Veracité` : Quelle précision des données ? C'est la confiance dans vos données.
+- `Valeur` : c'est le résultat des 4 V.
 
 Une solution d'analyse de données a plusieurs composantes. Chaque composant a ses services et ses approches :
 
@@ -64,3 +65,4 @@ Pour vérifier si le bucket est créé :
 aller dans Services > Stockage > S3 : vous trouverez le nom du bucket dans le tableau `Buckets d'usage général`
 ```
 ![S3 Bucket](../src/captures/s3_bucket.png)
+Vous pouvez désormais accéder à plus d'options pour votre bucket (propriétés, autorisations, métriques, etc.).

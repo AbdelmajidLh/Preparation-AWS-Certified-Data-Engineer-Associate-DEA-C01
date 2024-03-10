@@ -20,9 +20,8 @@ pour implementer la remproductibilité dans la data ingestion, plusieurs straté
 - event logs : maintenir les logs
 - chackpointing : mettre des checkpoint sur les differents niveau d'un pipeline
 - back filling mecanisms : un retour sur un evenement ou une date specifique
-- 
-ca permet de suivre le progress et identifier les point où la data a beoin d'etre reproduite
 
+Cela permet de suivre le progrès et d'identifier les points où les données ont besoin d'être reproduites.
 
 ### Comprendre la reproductibilité
 

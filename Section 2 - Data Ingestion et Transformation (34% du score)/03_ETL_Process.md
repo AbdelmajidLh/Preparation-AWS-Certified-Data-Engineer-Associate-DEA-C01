@@ -6,7 +6,7 @@ ETL (Extract, Transform and Load) est un processus permettant d'extraire des don
 ### Extraction (*Extract*)
 
 L'étape d'extraction (ou **Extract**) du processus ETL consiste à récupérer les données à partir de différentes sources, telles que des bases de données, des fichiers plats, des services web, ou des flux de données en temps réel.
-![Processus ETL](../src/captures/etl2.PNG)
+![ETL Extraction](../src/captures/etl2.PNG)
 **Exemples avec des services AWS** :
 - Récupération de données depuis **Amazon S3** : Extraction de fichiers CSV, JSON ou Parquet stockés dans des buckets S3 à l'aide de requêtes S3 API.
 - Extraction de données depuis **Amazon RDS** : Récupération de données depuis une base de données relationnelle comme MySQL, PostgreSQL ou Oracle hébergée sur Amazon RDS en utilisant des requêtes SQL.
@@ -14,6 +14,7 @@ L'étape d'extraction (ou **Extract**) du processus ETL consiste à récupérer 
 ### Transformation
 
 L'étape de transformation du processus ETL implique le nettoyage, la manipulation et la structuration des données extraites afin de les rendre utilisables et cohérentes pour l'analyse ou le chargement ultérieur.
+![ETL Transformation](../src/captures/etl_transfo.PNG)
 
 **Exemples avec des services AWS** :
 - Nettoyage des données avec **AWS Glue** : Utilisation des jobs AWS Glue pour nettoyer et transformer les données extraites en supprimant les valeurs manquantes, les doublons, ou en effectuant des opérations de formatage.

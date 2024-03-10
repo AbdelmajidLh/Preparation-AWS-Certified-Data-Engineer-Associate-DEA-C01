@@ -1,12 +1,12 @@
 ## Processus ETL
 
 ETL (Extract, Transform and Load) est un processus permettant d'extraire des données de sources variées, de les transformer selon les besoins, puis de les charger dans un référentiel de données. Cette étape est cruciale pour garantir la qualité et la cohérence des données avant de les intégrer dans un système de stockage ou d'analyse. Le processus ETL implique généralement plusieurs étapes, notamment l'extraction des données à partir de différentes sources telles que des bases de données, des fichiers plats ou des API, la transformation des données pour les adapter aux besoins de l'application, et enfin le chargement des données transformées dans un entrepôt de données ou une base de données.
-![Processus ETL](../src/captures/etl.png)
+![Processus ETL](../src/captures/etl.PNG)
 
 ### Extraction (*Extract*)
 
 L'étape d'extraction (ou **Extract**) du processus ETL consiste à récupérer les données à partir de différentes sources, telles que des bases de données, des fichiers plats, des services web, ou des flux de données en temps réel.
-![Processus ETL](../src/captures/etl2.png)
+![Processus ETL](../src/captures/etl2.PNG)
 **Exemples avec des services AWS** :
 - Récupération de données depuis **Amazon S3** : Extraction de fichiers CSV, JSON ou Parquet stockés dans des buckets S3 à l'aide de requêtes S3 API.
 - Extraction de données depuis **Amazon RDS** : Récupération de données depuis une base de données relationnelle comme MySQL, PostgreSQL ou Oracle hébergée sur Amazon RDS en utilisant des requêtes SQL.

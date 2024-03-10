@@ -38,3 +38,12 @@ Pour mettre en œuvre la reproductibilité dans l'ingestion de données, plusieu
 - Points de contrôle (`chackpointing`): Utilisation de points de contrôle à différents niveaux du pipeline pour garantir une reprise après panne.
 - Mécanismes de remplissage arrière (`back filling mecanisms`): Permettent de revenir en arrière sur un événement ou une date spécifique.
 Ces stratégies Surveillance du progrès : Permet de suivre le progrès et d'identifier les points où la reproductibilité est nécessaire.
+
+### Les Défis de la Reproductibilité
+- Dépendance à l'ordre (`order dependency`) : S'assurer qu'avec les mêmes données en entrée, les mêmes enregistrements sont générés, surtout lorsqu'on travaille sur un système distribué ou des pipelines de transformation complexes.
+- Volume de données et performances : L'ingestion de grandes quantités de données peut consommer des ressources et impacter les performances, entraînant une latence.
+- Dépendances entre les données : Assurer la cohérence et la fiabilité des données dans le contexte de plusieurs sources et flux de données.
+- Politiques de rétention des données (`data retention policies`): Déterminer quand et comment les données sont archivées ou purgées pour optimiser l'utilisation des ressources et respecter les réglementations.
+- Ressources disponibles : Gérer les capacités de stockage, de traitement et de réseau pour répondre aux besoins d'ingestion de données.
+- Test et validation des processus d'ingestion : Mettre en place des procédures de test et de validation pour garantir la fiabilité et la précision des données ingérées.
+- Défis de coûts, en particulier dans les environnements cloud : Optimiser les coûts liés à l'ingestion, au stockage et au traitement des données pour assurer une rentabilité optimale.

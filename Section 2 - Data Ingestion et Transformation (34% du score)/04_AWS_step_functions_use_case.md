@@ -33,5 +33,5 @@ Source :
 (5) Getting started with AWS Step Functions with Hands On. https://www.golinuxcloud.com/aws-step-functions-tutorial/.  
 (6) A Complete Guide For Using The AWS Step Functions. https://www.geeksforgeeks.org/a-complete-guide-for-using-the-aws-step-functions/.  
 
-Dans ce schema : la fonction step va declencher le pipeline batch a chaque fois de nouvelles données arrivent dans S3.
-![Step Function](../src/captures/step_function.PNG)
+Dans ce schema : la fonction step va declencher le pipeline batch a chaque fois de nouvelles données arrivent dans S3.  
+![Step Function](../src/captures/step_function.png)

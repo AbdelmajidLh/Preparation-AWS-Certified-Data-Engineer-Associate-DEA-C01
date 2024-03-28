@@ -25,13 +25,13 @@ Voici quelques exemples pratiques d'utilisation des AWS Step Functions :
 
 Ces exemples montrent comment AWS Step Functions peut être utilisé pour automatiser et orchestrer des tâches complexes, en intégrant divers services AWS dans un flux de travail cohérent et géré.
 
-Source : c
-(1) Cas d'utilisation d'AWS Step Functions. https://aws.amazon.com/fr/step-functions/use-cases/.
-(2) Cas d'utilisation - AWS Step Functions. https://docs.aws.amazon.com/fr_fr/step-functions/latest/dg/use-cases.html.
-(3) Cas d'utilisation d'AWS Step Functions. https://bing.com/search?q=exemples+pratiques+d%27utilisation+AWS+Step+Functions.
-(4) AWS Step Functions Tutorial 2024 - Hands-On.Cloud. https://hands-on.cloud/aws-services/step-functions/.
-(5) Getting started with AWS Step Functions with Hands On. https://www.golinuxcloud.com/aws-step-functions-tutorial/.
-(6) A Complete Guide For Using The AWS Step Functions. https://www.geeksforgeeks.org/a-complete-guide-for-using-the-aws-step-functions/.
+Source :   
+(1) Cas d'utilisation d'AWS Step Functions. https://aws.amazon.com/fr/step-functions/use-cases/.  
+(2) Cas d'utilisation - AWS Step Functions. https://docs.aws.amazon.com/fr_fr/step-functions/latest/dg/use-cases.html.  
+(3) Cas d'utilisation d'AWS Step Functions. https://bing.com/search?q=exemples+pratiques+d%27utilisation+AWS+Step+Functions.  
+(4) AWS Step Functions Tutorial 2024 - Hands-On.Cloud. https://hands-on.cloud/aws-services/step-functions/.  
+(5) Getting started with AWS Step Functions with Hands On. https://www.golinuxcloud.com/aws-step-functions-tutorial/.  
+(6) A Complete Guide For Using The AWS Step Functions. https://www.geeksforgeeks.org/a-complete-guide-for-using-the-aws-step-functions/.  
 
 Dans ce schema : la fonction step va declencher le pipeline batch a chaque fois de nouvelles données arrivent dans S3.
 ![Step Function](../src/captures/step_function.PNG)

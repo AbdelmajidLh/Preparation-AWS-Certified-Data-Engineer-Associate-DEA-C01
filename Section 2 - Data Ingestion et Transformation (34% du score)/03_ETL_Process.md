@@ -28,3 +28,12 @@ L'étape de chargement (ou **Load**) du processus ETL consiste à charger les do
 **Exemples avec des services AWS** :
 - Chargement des données dans **Amazon Redshift** : Écriture des données transformées dans un entrepôt de données Amazon Redshift pour l'analyse ultérieure à l'aide de requêtes SQL.
 - Chargement des données dans **Amazon DynamoDB** : Insertion des données transformées dans une base de données NoSQL comme Amazon DynamoDB pour un accès rapide et évolutif aux données.
+
+
+## Services Amazon pour ETL
+
+AWS propose deux services principaux pour les processus ETL :
+
+- **AWS Glue** : AWS Glue est un service entièrement géré qui offre une solution serverless pour l'extraction, la transformation et le chargement (ETL) des données. Il permet de découvrir, cataloguer et transformer les données rapidement et efficacement. Glue prend en charge divers types de données, y compris les données structurées et semi-structurées, et offre une intégration facile avec d'autres services AWS. Bien que Glue soit facile à utiliser et évolutif, il peut être relativement coûteux pour de gros volumes de données.
+
+- **Amazon EMR** : Amazon EMR (Elastic MapReduce) est un service de traitement de données entièrement géré qui permet de provisionner facilement des clusters Hadoop, Spark, HBase et Presto. Bien que EMR soit principalement utilisé pour le traitement de données massives et l'analyse en temps réel, il peut également être utilisé pour les tâches ETL. EMR offre une grande flexibilité en termes de configuration et de gestion des clusters, ainsi qu'une intégration étroite avec d'autres services AWS. Il est souvent préféré pour les scénarios nécessitant un contrôle plus granulaire sur l'infrastructure sous-jacente.

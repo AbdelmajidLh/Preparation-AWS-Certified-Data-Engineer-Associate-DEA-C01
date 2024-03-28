@@ -16,9 +16,9 @@ continue et personnalisée.
 ```
 
 pour implementer la remproductibilité dans la data ingestion, plusieurs stratégies peuvent etre utilisés :
-- idempotent operations : complete ce point
+- idempotent operations : Ces opérations assurent que leur exécution multiple produit toujours le même résultat, quel que soit le nombre de fois qu'elles sont exécutées.
 - event logs : maintenir les logs
-- chackpointing : mettre des checkpoint sur les differents niveau d'un pipeline
+- checkpointing : mettre des checkpoint sur les differents niveau d'un pipeline
 - back filling mecanisms : un retour sur un evenement ou une date specifique
 
 Cela permet de suivre le progrès et d'identifier les points où les données ont besoin d'être reproduites.

@@ -35,6 +35,7 @@ L'étape de chargement (ou **Load**) du processus ETL consiste à charger les do
 ## Services Amazon pour ETL
 
 AWS propose deux services principaux pour les processus ETL :
+
 ![ETL AWS](../src/captures/AWS_EMR_vs_Glue.png)
 
 - **AWS Glue** : AWS Glue est un service entièrement géré qui offre une solution serverless pour l'extraction, la transformation et le chargement (ETL) des données. Il permet de découvrir, cataloguer et transformer les données rapidement et efficacement. Glue prend en charge divers types de données, y compris les données structurées et semi-structurées, et offre une intégration facile avec d'autres services AWS. Bien que Glue soit facile à utiliser et évolutif, il peut être relativement coûteux pour de gros volumes de données.

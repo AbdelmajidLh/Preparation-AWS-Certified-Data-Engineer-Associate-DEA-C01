@@ -11,7 +11,8 @@ L'étape d'extraction (ou **Extract**) du processus ETL consiste à récupérer 
 - Récupération de données depuis **Amazon S3** : Extraction de fichiers CSV, JSON ou Parquet stockés dans des buckets S3 à l'aide de requêtes S3 API.
 - Extraction de données depuis **Amazon RDS** : Récupération de données depuis une base de données relationnelle comme MySQL, PostgreSQL ou Oracle hébergée sur Amazon RDS en utilisant des requêtes SQL.
 
-![Extraction](../src/captures/ods.PNG)
+![Extraction](../src/captures/ods.png)
+
 ## 2. Transformation
 
 L'étape de transformation du processus ETL implique le nettoyage, la manipulation et la structuration des données extraites afin de les rendre utilisables et cohérentes pour l'analyse ou le chargement ultérieur (ça peut être basique ou très complexe).
